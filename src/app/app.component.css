@@ -1,0 +1,17 @@
+.all{
+  font-family: "Open Sans", sans-serif;
+}
+
+.navigator-image{
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpg");
+}
+
+.shadow-image{
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 60%);
+  top: 0;
+}
+

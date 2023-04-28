@@ -1,0 +1,18 @@
+<div [ngClass]="{'image':home, 'color':!home}">
+  <div [ngClass]="{'superior':home, 'superior-gris':!home}">
+    <div class="header">
+      <p class="logo">IParking</p>
+      <nav class="navigator">
+        <a class="navigator-item" routerLink="/" >Inicio</a>
+        <a class="navigator-item" routerLink="/plans">Planes</a>
+        <a class="navigator-item" routerLink="/about-us">Nosotros</a>
+        <a class="navigator-item" routerLink="/contact">Contacto</a>
+      </nav>
+    </div>
+  </div>
+  <div *ngIf="home" class="title-container">
+    <h1 class="title">IParking</h1>
+    <h2 class="subtitle">Tu aplicacion de parqueo de confianza</h2>
+  </div>
+</div>
+

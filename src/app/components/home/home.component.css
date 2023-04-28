@@ -1,0 +1,203 @@
+.us-project{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.information{
+  margin: 20px auto;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .information{
+    width: 98%;
+    margin: 10px auto;
+    text-align: justify;
+  }
+}
+
+.us-project h1{
+  margin: 5px;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.us-project p{
+  margin: 0;
+  font-size: 18px;
+  color: gray;
+}
+
+.features{
+  display: flex;
+}
+
+.feature{
+  margin: 30px 20px 0 20px;
+}
+
+.feature-image{
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+}
+
+.feature h4{
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.feature p{
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .features{
+    flex-direction: column;
+  }
+
+  .feature-image{
+    width: 170px;
+    height: 170px;
+  }
+
+  .feature h4{
+    font-size: 26px;
+  }
+}
+
+.company{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../assets/images/banner-2.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.featurecompany-image{
+  width: 70px;
+}
+
+.company-features{
+  display: flex;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.company-feature{
+  color: white;
+  margin: 70px;
+  text-align: center;
+}
+
+.company-feature h4{
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .company{
+    height: 750px;
+  }
+
+  .company-features{
+    flex-direction: column;
+  }
+
+  .company-feature{
+    margin: 30px;
+  }
+}
+
+.history{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 0 3px 2px rgba(200,200,200,1);
+}
+
+.history-image{
+  width: 100%;
+}
+
+.history-content{
+  width: 70%;
+  display: block;
+  margin: 20px;
+}
+
+.history-title{
+  font-size: 50px;
+  font-weight: 400;
+  margin: 15px 0 5px 0;
+}
+
+.history p{
+  font-size: 18px;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .history{
+    display: block;
+    padding: 5px;
+  }
+
+  .history-image{
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .history-title{
+    font-size: 40px;
+  }
+
+  .history-content{
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .button{
+    display: block;
+    width: 270px;
+    margin: 30px auto;
+  }
+}
+
+.references{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.referece{
+  background-color: #d9b10d;
+  padding: 25px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.referece p, .referece h4 {
+  color: white;
+  margin: 0;
+}
+
+.referece p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.referece h4{
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .references{
+    flex-direction: column;
+  }
+}
+
+

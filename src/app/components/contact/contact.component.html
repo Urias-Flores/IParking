@@ -1,0 +1,44 @@
+<main>
+  <app-navigator [home]="false"/>
+
+  <h1>Contactanos</h1>
+
+  <div class="contact">
+    <div class="contact-description">
+      <h3>Nuestras redes</h3>
+      <div class="contact-images">
+        <a href="https://facebook.com" class="icon-image">
+          <img src="assets/images/facebook.svg"  alt="image"/>
+          <p>WUCS International</p>
+        </a>
+
+        <a href="https://instagram.com" class="icon-image">
+          <img src="assets/images/instagram.svg"  alt="image"/>
+          <p>WUCS_Tec</p>
+        </a>
+
+        <a href="https://twitter.com" class="icon-image">
+          <img src="assets/images/twitter.svg"  alt="image"/>
+          <p>WUCS_International</p>
+        </a>
+      </div>
+      <p class="contact-text">
+        Somos una empresa completamente tecnologica y con lo ultimo en tecnologia, en lo que a sistemas de
+        parkeo de automoviles se refiere
+      </p>
+      <p class="contact-direction">
+        3ra Calle, 2 avenida, San pedro sula, Honduras
+      </p>
+    </div>
+    <form class="contact-form">
+      <input type="text" placeholder="Tu nombre"/>
+      <input type="email" placeholder="Correo electronico"/>
+      <input type="tel" placeholder="Tu numero telefonico">
+      <textarea class="textArea" placeholder="Escribenos un mensaje"></textarea>
+
+      <button type="button" class="button">Enviar</button>
+    </form>
+  </div>
+
+  <app-navigator [home]="false"/>
+</main>
