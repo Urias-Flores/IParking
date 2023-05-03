@@ -47,6 +47,11 @@ p{
   color: #d9b10d;
 }
 
+.desde{
+  padding: 0;
+  margin: 0;
+}
+
 .price span{
   font-size: 28px;
   color: black;

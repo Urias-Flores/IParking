@@ -3,19 +3,18 @@
 
   <section class="us-project">
     <div class="information">
-      <h1>(Propuesta de valor)</h1>
-      <p>(Informacion de la propuesta de valor de la empresa)Delivering projects that fulfill and exceed
-        the owners expectations is a process that
-        starts during the conceptual stage with a collaborative team from design through construction.
-        This integrated team approach puts the focus of all team members specifically towards the culmination
-        of the completed project. Check out our projects by clicking on the categories below.
+      <h1>Controla tu estacianamiento y obten beneficios por ello</h1>
+      <p>Adquiere ahora el software de gestion y reservacion de estacionamientos para tu edificio
+        y comienza  a obtener beneficios por ello. Nuestro anazado sistemas permite a los usuarios
+        obtener con anticipacion un lugar por el cual deberan pagar, y de este modo reservarlo, para que
+        al momento de su llegado este libre y asi poder aparcar su automovil en el lugar.
       </p>
     </div>
 
     <div class="features">
       <div *ngFor="let feature of features" class="feature">
         <img src="assets/images/{{feature.image}}" alt="feature" class="feature-image"/>
-        <h4>{{feature.title}}</h4>2
+        <h4>{{feature.title}}</h4>
         <p>
           {{feature.description}}
         </p>
@@ -38,14 +37,14 @@
   <section class="history">
     <img src="assets/images/banner-3.jpg" class="history-image">
     <div class="history-content">
-      <h3 class="history-title">Aqui hiria un poco de la historia de la empresa, desde 2018</h3>
-      <p>Company, headquartered in San Diego, brings over 42 years of local and national construction experience;
-        with a reputation for delivering large and unique design-build projects ahead of schedule and on budget.
-        Our company has served clients and building owners for over four decades. In that time, we have found that
-        the key to every project’s success is understanding the Owner’s needs and expectations and then exceeding
-        those expectations.
+      <h3 class="history-title">Brindando servicios de calidad desde 2010</h3>
+      <p>Somos una empresa de tecnologia, con el mejor y unico sistema de aparcamiento en el mercado hondureño,
+        la cual desde sus inicios se ha destacado por la calidad de nuestros servicios y nuestros productos, tanto a nivel
+        de software de control para nuestros clientes, como para los usuarios de nuestra app, ofreciendo de la misma hardware
+        de altisima calidad a nuestros clientes, para poder implementarlos en sus edificios.
       </p>
-      <a class="button" routerLink="/history">Leer Historia</a>
+      <p><br></p>
+      <a class="button" routerLink="/about-us">Mas sobre nosotros</a>
     </div>
   </section>
 

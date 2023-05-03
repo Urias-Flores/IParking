@@ -13,23 +13,23 @@ export class HomeComponent {
   features = [
     {
       image : "feature-1.jpg",
-      title : "funcionalidad-1",
-      description : "Sample text. Lorem ipsum dolor sit amet, consectetur"
+      title : "Facilidad",
+      description : "Ahora tus cliente se ahorraran la tarea de buscar un lugar donde aparcar."
     },
     {
       image : "feature-2.jpg",
-      title : "funcionalidad-2",
-      description : "Sample text. Lorem ipsum dolor sit amet, consectetur"
+      title : "Comodidad",
+      description : "Tus clientes no se tendran que preocupar por el donde dejaran su automovil."
     },
     {
       image : "feature-3.jpg",
-      title : "funcionalidad-3",
-      description : "Sample text. Lorem ipsum dolor sit amet, consectetur"
+      title : "Automatización",
+      description : "Con los dispositivos de deteccion, sabras en tiempo real que lugares estan o no ocupados."
     },
     {
       image : "feature-4.jpg",
-      title : "funcionalidad-4",
-      description : "Sample text. Lorem ipsum dolor sit amet, consectetur"
+      title : "Control",
+      description : "Conoce en todo momento que ingresos estas recibiendo por el uso de aparcamientos"
     },
   ];
 
@@ -37,17 +37,17 @@ export class HomeComponent {
     {
       image : "quality.svg",
       title : "Calidad",
-      description : "Sample text. Lorem ipsum dolor sit amet, consectetur"
+      description : "Ofrecemos sensores contruidos con lo mejores materiales y construcción"
     },
     {
       image : "innovation.svg",
-      title : "Innovacion",
-      description : "Sample text. Lorem ipsum dolor sit amet, consectetur"
+      title : "Innovación",
+      description : "Brindamos los mejores servicios basados en las ultimas tecnologias existentes en el mercado"
     },
     {
       image : "security.svg",
       title : "Seguridad",
-      description : "Sample text. Lorem ipsum dolor sit amet, consectetur"
+      description : "Nuestros sistemas de deteccion cumplen con todas las normativas regulatorias"
     }
   ]
 
@@ -57,7 +57,7 @@ export class HomeComponent {
         "Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, " +
         "cuando un impresor desconocido tomó una galera de tipos y la codificó para hacer un libro " +
         "de muestras tipográficas.",
-      people : "Juan Camello - CEO Diunsa",
+      people : "Juan Lopez - CEO Diunsa",
     },
     {
       text : "es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica. " +
